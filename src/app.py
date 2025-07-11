@@ -6,7 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import StrOutputParser
 
-load_dotenv()
+# load_dotenv()
 
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
@@ -30,7 +30,7 @@ def get_response(query, chat_history):
     
     prompt = ChatPromptTemplate.from_template(template)
 
-    llm = ChatOpenAI()
+    llm = ChatOpenAI(api_key=st.secrets["api_keys"]["openai_api_key"])
 
     chain = prompt | llm | StrOutputParser()
 
