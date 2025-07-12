@@ -2,7 +2,7 @@
 
 (No medical advice is provided. CalmMind is for emotional support and listening only.)
 
-Therapy Bot (named CalmMind) is an empathetic, conversational therapy chatbot built with the ChatGPT API, LangChain, and Streamlit. It provides a safe, non-judgmental space where users can share their feelings and receive calm, compassionate responses — not diagnoses.
+Therapy Bot is an empathetic, conversational therapy chatbot built with the ChatGPT API, LangChain, and Streamlit. It provides a safe, non-judgmental space where users can share their feelings and receive calm, compassionate responses — not diagnoses.
 
 ![1](1.png)
 
@@ -28,7 +28,7 @@ Python
 
 # 📌 Notes
 
-No medical advice is provided. CalmMind is for emotional support and listening only.
+No medical advice is provided. It is for emotional support and listening only.
 
 # 🙏 Credits
 
